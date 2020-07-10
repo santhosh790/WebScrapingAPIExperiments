@@ -9,3 +9,11 @@ class w3SchoolSpider(scrapy.Spider):
         next_page = response.css('.w3-btn w3-blue').extract()
 
         yield response.follow(next_page, self.parse)
+
+
+'''
+Notes:
+https://scrapy.org/
+https://stackoverflow.com/questions/16391677/how-to-send-javascript-and-cookies-enabled-in-scrapy
+https://docs.scrapy.org/en/latest/index.html
+'''
