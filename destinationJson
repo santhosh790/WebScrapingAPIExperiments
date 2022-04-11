@@ -1,0 +1,112 @@
+{
+"jcr:primaryType": "cq:Page",
+"jcr:content": {
+"jcr:primaryType": "cq:PageContent",
+"jcr:title": "Customer Detail",
+"cq:template": "/conf/hitachivantara/settings/wcm/templates/page-content",
+"sling:resourceType": "hitachivantara/components/page",
+"root": {
+"jcr:primaryType": "nt:unstructured",
+"layout": "simple",
+"sling:resourceType": "wcm/foundation/components/responsivegrid",
+"responsivegrid": {
+"jcr:primaryType": "nt:unstructured",
+"layout": "responsiveGrid",
+"sling:resourceType": "wcm/foundation/components/responsivegrid",
+"customerstorydetail": {
+"jcr:primaryType": "nt:unstructured",
+"logoImage": "/content/dam/hvpublic/common/acc.png",
+"textalign": "left",
+"removebottomspace": "1",
+"logoimagealtText": "everflex-logo",
+"heading": "Hitachi Virtual Storage Platform Accelerates Move to Cloud With Flash for Accident Compensation Corporation",
+"sling:resourceType": "hitachivantara/components/customhv/customerstorydetail",
+"backgroundImage": "/content/dam/hvpublic/common/cust-story-bg.png",
+"textIsRich": [
+"true",
+"true",
+"true",
+"true",
+"true",
+"true",
+"true"
+],
+"removetopspace": "1",
+"subheading": "",
+"designgapclass": "40",
+"storydetails": {
+"jcr:primaryType": "nt:unstructured"
+},
+"cardsdetails": {
+"jcr:primaryType": "nt:unstructured",
+"item0": {
+"jcr:primaryType": "nt:unstructured",
+"svgpath": "/content/dam/hvpublic/common/header-footer-sprite.svg#get-support",
+"description": "<p>Improve visibility, control and performance at infrastructure level as organization prepares to move to cloud.</p>\r\n",
+"svgtitle": "Challenge",
+"paneltitlealign": "left",
+"title": "Challenge",
+"panelisborder": "true",
+"backcolor": "red",
+"paneltitlebordercolor": "white"
+}
+}
+},
+"summary0": {
+"jcr:primaryType": "nt:unstructured",
+"description": "<ul>\r\n<li>Click to download the DPA for your country below</li>\r\n<li>Click to download the DPA for your country below</li>\r\n<li>Click to download the DPA for your country below</li>\r\n</ul>\r\n",
+"linkcolor": "red",
+"openNewWindow": "NO",
+"removebottomspace": "2",
+"svgid": "link-arrow",
+"title": "Outcomes",
+"sling:resourceType": "hitachivantara/components/customhv/summary",
+"textIsRich": [
+"true",
+"true"
+],
+"removetopspace": "2",
+"titlePosition": "left",
+"designgapclass": "50",
+"isVideo": "NO"
+},
+"summary1": {
+"jcr:primaryType": "nt:unstructured",
+"description": "<p>The Accident Compensation Corporation (ACC) provides comprehensive, no-fault personal injury coverage for all New Zealand residents and visitors. The government body is a highly transactional organization that sought a next-generation, storage environment with flash to boost application performance.</p>\r\n<p>This plan included specific requirements for the new Citrix hosted desktop environment for Microsoft® Windows® 7, which needed to support up 80% of the organization’s 4,200+ strong workforce logging on simultaneously.</p>\r\n<p>“We heard stories of thin client applications creating a log-on storm in the morning. To avoid this scenario and ensure a smooth user experience, we calculated that the virtual desktop infrastructure (VDI) requires up to 56,000 IOPS,” said Matthew Rounthwaite, ICT security and risk manager at ACC.</p>\r\n<p>At the same time, the New Zealand government’s “cloud-first” approach stipulates strict data governance and privacy requirements. To address these requirements, the ACC is currently working with a hybrid cloud model to improve visibility and cost control at the critical infrastructure level. Advanced storage and server virtualization will help the organization to port systems more easily to the cloud in future.</p>\r\n<p>“We wanted an end-to-end view of the performance of core applications with the ability to drill down all the way into the database layer. Any lag has an immediate impact on SLAs [service level agreements], for instance how long it takes to lodge a claim,” explains Dwayne Carnachan, ICT asset manager at ACC.</p>\r\n",
+"openNewWindow": "NO",
+"removebottomspace": "1",
+"svgid": "link-arrow",
+"title": "The Challenge",
+"sling:resourceType": "hitachivantara/components/customhv/summary",
+"textIsRich": [
+"true",
+"true"
+],
+"removetopspace": "1",
+"titlePosition": "left",
+"designgapclass": "60",
+"isVideo": "NO"
+},
+"testimonial": {},
+"summary2": {
+"jcr:primaryType": "nt:unstructured",
+"description": "<p>The Accident Compensation Corporation (ACC) provides comprehensive, no-fault personal injury coverage for all New Zealand residents and visitors. The government body is a highly transactional organization that sought a next-generation, storage environment with flash to boost application performance.</p>\r\n<p>This plan included specific requirements for the new Citrix hosted desktop environment for Microsoft® Windows® 7, which needed to support up 80% of the organization’s 4,200+ strong workforce logging on simultaneously.</p>\r\n<p>“We heard stories of thin client applications creating a log-on storm in the morning. To avoid this scenario and ensure a smooth user experience, we calculated that the virtual desktop infrastructure (VDI) requires up to 56,000 IOPS,” said Matthew Rounthwaite, ICT security and risk manager at ACC.</p>\r\n<p>At the same time, the New Zealand government’s “cloud-first” approach stipulates strict data governance and privacy requirements. To address these requirements, the ACC is currently working with a hybrid cloud model to improve visibility and cost control at the critical infrastructure level. Advanced storage and server virtualization will help the organization to port systems more easily to the cloud in future.</p>\r\n<p>“We wanted an end-to-end view of the performance of core applications with the ability to drill down all the way into the database layer. Any lag has an immediate impact on SLAs [service level agreements], for instance how long it takes to lodge a claim,” explains Dwayne Carnachan, ICT asset manager at ACC.</p>\r\n",
+"linkcolor": "red",
+"openNewWindow": "NO",
+"removebottomspace": "1",
+"svgid": "link-arrow",
+"title": "Solution",
+"sling:resourceType": "hitachivantara/components/customhv/summary",
+"textIsRich": [
+"true",
+"true"
+],
+"removetopspace": "1",
+"titlePosition": "left",
+"designgapclass": "60",
+"isVideo": "NO"
+}
+}
+}
+}
+}

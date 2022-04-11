@@ -1,0 +1,210 @@
+{
+"jcr:primaryType": "cq:Page",
+"jcr:createdBy": "admin",
+"jcr:created": "Tue Sep 08 2020 00:06:29 GMT-0600",
+"jcr:content": {
+"jcr:primaryType": "cq:PageContent",
+"jcr:mixinTypes": [
+"mix:versionable"
+],
+"jcr:createdBy": "admin",
+"jcr:title": "Customer Detail",
+"cq:lastReplicationAction": "Activate",
+"jcr:versionHistory": "0912868d-2005-42e6-9b29-24aeadc120c4",
+"cq:template": "/conf/hitachivantara/settings/wcm/templates/page-content",
+"cq:lastReplicatedBy": "replication-service",
+"jcr:predecessors": [
+"d7f848be-4986-4652-ab4e-80688d60bc71"
+],
+"jcr:created": "Tue Sep 08 2020 00:06:29 GMT-0600",
+"cq:lastReplicated": "Wed Sep 02 2020 05:10:15 GMT-0600",
+"cq:lastModified": "Tue Sep 08 2020 02:37:08 GMT-0600",
+"jcr:baseVersion": "d7f848be-4986-4652-ab4e-80688d60bc71",
+"jcr:isCheckedOut": true,
+"jcr:uuid": "fdad5cee-c853-4cac-a920-a74a266d72c0",
+"sling:resourceType": "hitachivantara/components/page",
+"cq:lastModifiedBy": "admin",
+"root": {
+"jcr:primaryType": "nt:unstructured",
+"layout": "simple",
+"sling:resourceType": "wcm/foundation/components/responsivegrid",
+"responsivegrid": {
+"jcr:primaryType": "nt:unstructured",
+"layout": "responsiveGrid",
+"sling:resourceType": "wcm/foundation/components/responsivegrid",
+"customerstorydetail": {
+"jcr:primaryType": "nt:unstructured",
+"jcr:createdBy": "admin",
+"logoImage": "/content/dam/hvpublic/common/acc.png",
+"jcr:lastModifiedBy": "admin",
+"textalign": "left",
+"jcr:created": "Wed Sep 02 2020 03:26:28 GMT-0600",
+"removebottomspace": "1",
+"logoimagealtText": "everflex-logo",
+"heading": "Hitachi Virtual Storage Platform Accelerates Move to Cloud With Flash for Accident Compensation Corporation",
+"jcr:lastModified": "Wed Sep 02 2020 05:10:13 GMT-0600",
+"sling:resourceType": "hitachivantara/components/customhv/customerstorydetail",
+"backgroundImage": "/content/dam/hvpublic/common/cust-story-bg.png",
+"textIsRich": [
+"true",
+"true",
+"true",
+"true",
+"true",
+"true",
+"true"
+],
+"removetopspace": "1",
+"subheading": "Accident Compensation Corporation (ACC)",
+"designgapclass": "40",
+"storydetails": {
+"jcr:primaryType": "nt:unstructured",
+"item0": {
+"jcr:primaryType": "nt:unstructured",
+"description": "<p>Government</p>\r\n",
+"title": "Industry"
+},
+"item1": {
+"jcr:primaryType": "nt:unstructured",
+"description": "<p>Enterprise, Flash, Virtualization</p>\r\n<p> </p>\r\n",
+"title": "Solutions"
+},
+"item2": {
+"jcr:primaryType": "nt:unstructured",
+"description": "<p>Hitachi Virtual Storage Platform Hitachi Accelerated Flash</p>\r\n",
+"title": "Hardware"
+},
+"item3": {
+"jcr:primaryType": "nt:unstructured",
+"description": "<p>Hitachi Dynamic Tiering</p>\r\n<p> </p>\r\n",
+"title": "Software"
+},
+"item4": {
+"jcr:primaryType": "nt:unstructured",
+"description": "<p>Hitachi Global Services Solutions</p>\r\n<p> </p>\r\n",
+"title": "Services"
+}
+},
+"cardsdetails": {
+"jcr:primaryType": "nt:unstructured",
+"item0": {
+"jcr:primaryType": "nt:unstructured",
+"svgpath": "/content/dam/hvpublic/common/header-footer-sprite.svg#get-support",
+"description": "<p>Improve visibility, control and performance at infrastructure level as organization prepares to move to cloud.</p>\r\n",
+"svgtitle": "Challenge",
+"paneltitlealign": "left",
+"title": "Challenge",
+"panelisborder": "true",
+"backcolor": "red",
+"paneltitlebordercolor": "white"
+},
+"item1": {
+"jcr:primaryType": "nt:unstructured",
+"svgpath": "/content/dam/hvpublic/common/header-footer-sprite.svg#get-support",
+"description": "<p>Single infrastructure platform that consolidates storage across two data centers and introduces dynamic tiering.</p>\r\n",
+"svgtitle": "Solution",
+"paneltitlealign": "left",
+"title": "Solution",
+"panelisborder": "true",
+"backcolor": "blue",
+"paneltitlebordercolor": "white"
+}
+}
+},
+"summary_1151253752": {
+"jcr:primaryType": "nt:unstructured",
+"jcr:createdBy": "admin",
+"description": "<ul>\r\n<li>Click to download the DPA for your country below</li>\r\n<li>Click to download the DPA for your country below</li>\r\n<li>Click to download the DPA for your country below</li>\r\n</ul>\r\n",
+"linkcolor": "red",
+"jcr:lastModifiedBy": "admin",
+"openNewWindow": "NO",
+"jcr:created": "Tue Sep 01 2020 20:54:22 GMT+0530",
+"removebottomspace": "2",
+"svgid": "link-arrow",
+"title": "Outcomes",
+"backgroundcolorgrey": "true",
+"jcr:lastModified": "Tue Sep 08 2020 01:21:27 GMT-0600",
+"sling:resourceType": "hitachivantara/components/customhv/summary",
+"textIsRich": [
+"true",
+"true"
+],
+"removetopspace": "2",
+"titlePosition": "left",
+"designgapclass": "50",
+"isVideo": "NO"
+},
+"summary_1476634580": {
+"jcr:primaryType": "nt:unstructured",
+"jcr:createdBy": "admin",
+"description": "<p>The Accident Compensation Corporation (ACC) provides comprehensive, no-fault personal injury coverage for all New Zealand residents and visitors. The government body is a highly transactional organization that sought a next-generation, storage environment with flash to boost application performance.</p>\r\n<p>This plan included specific requirements for the new Citrix hosted desktop environment for Microsoft® Windows® 7, which needed to support up 80% of the organization’s 4,200+ strong workforce logging on simultaneously.</p>\r\n<p>“We heard stories of thin client applications creating a log-on storm in the morning. To avoid this scenario and ensure a smooth user experience, we calculated that the virtual desktop infrastructure (VDI) requires up to 56,000 IOPS,” said Matthew Rounthwaite, ICT security and risk manager at ACC.</p>\r\n<p>At the same time, the New Zealand government’s “cloud-first” approach stipulates strict data governance and privacy requirements. To address these requirements, the ACC is currently working with a hybrid cloud model to improve visibility and cost control at the critical infrastructure level. Advanced storage and server virtualization will help the organization to port systems more easily to the cloud in future.</p>\r\n<p>“We wanted an end-to-end view of the performance of core applications with the ability to drill down all the way into the database layer. Any lag has an immediate impact on SLAs [service level agreements], for instance how long it takes to lodge a claim,” explains Dwayne Carnachan, ICT asset manager at ACC.</p>\r\n",
+"jcr:lastModifiedBy": "admin",
+"openNewWindow": "NO",
+"jcr:created": "Tue Sep 01 2020 20:55:52 GMT+0530",
+"removebottomspace": "1",
+"svgid": "link-arrow",
+"title": "The Challenge",
+"jcr:lastModified": "Tue Sep 01 2020 20:59:20 GMT+0530",
+"sling:resourceType": "hitachivantara/components/customhv/summary",
+"textIsRich": [
+"true",
+"true"
+],
+"removetopspace": "1",
+"titlePosition": "left",
+"designgapclass": "60",
+"isVideo": "NO"
+},
+"testimonial": {
+"jcr:primaryType": "nt:unstructured",
+"jcr:createdBy": "admin",
+"jcr:lastModifiedBy": "admin",
+"jcr:created": "Sat Aug 22 2020 06:18:54 GMT-0600",
+"removebottomspace": "1",
+"jcr:lastModified": "Tue Sep 08 2020 02:37:08 GMT-0600",
+"sling:resourceType": "hitachivantara/components/customhv/testimonial",
+"textIsRich": [
+"true",
+"true"
+],
+"removetopspace": "1",
+"designgapclass": "20",
+"testimonialdetails": {
+"jcr:primaryType": "nt:unstructured",
+"item0": {
+"jcr:primaryType": "nt:unstructured",
+"backgroundimg": "/content/dam/public/en_us/image/test-images/sub-category-banner.jpg",
+"designation": "<p>Technology Services Division Manager, City of Moreno Valley</p>\r\n",
+"testimonialName": "-Steve Hargis,",
+"svgimageurl": "/content/dam/public/en_us/image/common/hv-testimonial-quote.svg",
+"heading": "Governance of Data in the Digital Era",
+"comment": "<p>We are safer because of the number of incidents we are able to investigate, the clarity that we're able to gain on events happening in our city, and the leads that we generate that we would not have otherwise. We have become a safer and smarter city through the use of Hitachi Visualization.</p>\r\n"
+}
+}
+},
+"summary_1476634582": {
+"jcr:primaryType": "nt:unstructured",
+"jcr:createdBy": "admin",
+"description": "<p>The Accident Compensation Corporation (ACC) provides comprehensive, no-fault personal injury coverage for all New Zealand residents and visitors. The government body is a highly transactional organization that sought a next-generation, storage environment with flash to boost application performance.</p>\r\n<p>This plan included specific requirements for the new Citrix hosted desktop environment for Microsoft® Windows® 7, which needed to support up 80% of the organization’s 4,200+ strong workforce logging on simultaneously.</p>\r\n<p>“We heard stories of thin client applications creating a log-on storm in the morning. To avoid this scenario and ensure a smooth user experience, we calculated that the virtual desktop infrastructure (VDI) requires up to 56,000 IOPS,” said Matthew Rounthwaite, ICT security and risk manager at ACC.</p>\r\n<p>At the same time, the New Zealand government’s “cloud-first” approach stipulates strict data governance and privacy requirements. To address these requirements, the ACC is currently working with a hybrid cloud model to improve visibility and cost control at the critical infrastructure level. Advanced storage and server virtualization will help the organization to port systems more easily to the cloud in future.</p>\r\n<p>“We wanted an end-to-end view of the performance of core applications with the ability to drill down all the way into the database layer. Any lag has an immediate impact on SLAs [service level agreements], for instance how long it takes to lodge a claim,” explains Dwayne Carnachan, ICT asset manager at ACC.</p>\r\n",
+"linkcolor": "red",
+"jcr:lastModifiedBy": "admin",
+"openNewWindow": "NO",
+"jcr:created": "Tue Sep 01 2020 20:55:52 GMT+0530",
+"removebottomspace": "1",
+"svgid": "link-arrow",
+"title": "Solution",
+"jcr:lastModified": "Wed Sep 02 2020 02:52:49 GMT-0600",
+"sling:resourceType": "hitachivantara/components/customhv/summary",
+"textIsRich": [
+"true",
+"true"
+],
+"removetopspace": "1",
+"titlePosition": "left",
+"designgapclass": "60",
+"isVideo": "NO"
+}
+}
+}
+}
+}
